@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+    <script>
+        var choice = prompt("Welcome to area calculator.\n Please enter your choice .\n 1. Area of rectangle.\n 2. Area of triangle .\n 3. Area of circle . \n 4. Area of parallelogram ");
+        if(choice =="1") { 
+            var l= prompt('Enter the length') 
+            var b= prompt('Enter the breadth')
+            var result= Number(l)*Number(b)
+            alert("The area is " + result )
+        }
+        if (choice == "2") {
+         var l = prompt('Enter the length')
+         var b = prompt('Enter the base')
+        var result = Number(l) * Number(b)/2
+         alert("The area is " + result)
+         }
+        if (choice == "3") {
+        var l = prompt('Enter the radius')
+        var result =    3.14 *Number(l) * Number(l)
+        alert("The area is " + result)
+         }
+        if (choice == "4") {
+         var l = prompt('Enter the length')
+        var b = prompt('Enter the corresponding base')
+        var result = Number(l) * Number(b)
+        alert("The area is " + result)
+        }
+    </script>
+
+</body>
+</html>
